@@ -1,0 +1,65 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand,
+.active {
+  color: white !important;
+}
+.search {
+  background-color: transparent !important;
+  /* color: rgb(102, 244, 102) !important; */
+}
+.hamburger {
+  color: white !important;
+  background-color: transparent !important;
+}
+.search:hover {
+  color: white !important;
+  background-color: green !important;
+}
+.img-crous {
+  height: 58rem;
+}
+
+.normal {
+  color: #6c757d !important;
+}
+.normal:hover {
+  color: white !important;
+}
+.disabled {
+  color: #4f5052 !important;
+}
+
+.label-cap1 {
+  text-align: right !important;
+}
+.label-cap2 {
+  text-align: center !important;
+}
+.label-cap3 {
+  text-align: left !important;
+}
+/* circle cards */
+
+.img-line {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* thumnail image */
+.row-thumb{
+  height: 450px !important;
+
+}
+
+#caption-row-img{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
